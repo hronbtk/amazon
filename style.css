@@ -2,7 +2,11 @@
 div{
     text-align: center;
 }
-p{
+.effect{
+    font-size: 15px;
+    color: red;
+}
+.cord{
     font-size: 50px;
     color: brown;
     text-align: center;
