@@ -9,6 +9,7 @@ p{
 }
 a{
     color: #999;
+    display: block;
     text-decoration: none;
     text-align: center;
     font-size: 30px;
