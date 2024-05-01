@@ -12,6 +12,7 @@ img{
     margin: 0 auto;
     border-radius: 5px;
     padding: 2px 2px 2px 2px; 
+    margin-bottom: 50px;
 }
 h2{
     background-color: #000;
@@ -45,6 +46,7 @@ h2{
     font-size: 40px;
     padding: 15px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 span{
     color: #fff;
@@ -69,8 +71,17 @@ a{
     display: block;
     padding: 15px;
 }
-@media screen and (min-width: 600px) {
-p{
-    font-size: 20px;
+@media screen and (max-width: 768px) {
+.midasi,.detail{
+    font-size: 15px;
+    line-height: 1;
+    padding: 5px;
 }
+  }
+  @media screen and (min-width:768px) and (max-width:1600px) {
+    .midasi,.detail{
+        font-size: 30px;
+        line-height: 1;
+        padding: 5px;
+    }
   }
