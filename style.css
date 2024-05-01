@@ -38,14 +38,14 @@ h2{
 }
 .detail{
     background-color: #ff6347;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 50px;
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 5px;
 }
 span{
@@ -60,8 +60,8 @@ strong{
 button{
     display: block;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     width: 170px;
     background-color: #333;
     color: #fff;
@@ -80,7 +80,7 @@ a{
   }
   @media screen and (min-width:768px) and (max-width:1600px) {
     .midasi,.detail{
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1;
         padding: 5px;
     }
