@@ -76,7 +76,7 @@ button:hover{
     opacity: .8;
 }
 a{
-    display: block;
+    display: inline-block;
     padding: 15px;
 }
 .hint{
@@ -305,7 +305,7 @@ body,.midasi,.detail{
   }
   .swiper--wrapper {
     /* wrapperのサイズを調整 */
-    width: 240px;
+    width: 150px;
     height: 150px;
   }
   
@@ -317,4 +317,3 @@ body,.midasi,.detail{
     height: 150px;
     text-align: center;
   }
-  
