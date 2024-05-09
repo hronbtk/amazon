@@ -14,16 +14,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="destyle.css">
     <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <title>★5月は特別イベント開催!!知る人ぞ知るあの人気企画再び☆彡</title>
 </head>
 <body>
-<img src="shml1800000602_1_20150709163129pc.png" alt="ミセスOLスタイル">
+<img class="top-img"src="shml1800000602_1_20150709163129pc.png" alt="ミセスOLスタイル">
 <div class="main">
   <h2>★5月は特別イベント開催!!　<br class="kaigyou">知る人ぞ知るあの人気企画再び☆彡</h2>
   <p class="midasi">あの人気企画が復活！！　<br>ホームページのどこかにアマギフコード！</p>
     <p class="detail">5月はホームページのいたるところにアマギフ隠しちゃいます！<br>もちろん獲得は早い者勝ち！！</p>
     <span>参加は自由。探すも探さないもあなた次第<br>アマギフは <strong>↓こちら↓</strong>から！</span>
-  <button><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/diarylist/">アマギフはコチラ</a></button>
+  <button><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/girlid-11077095/">アマギフはコチラ</a></button>
 
 
   <div class="section s_05">
@@ -32,7 +35,7 @@
       <div class="accordion_header" id="ac1">アマギフコードへのヒント<div class="i_box"><i class="one_i"></i></div></div>
       <div class="accordion_inner">
         <div class="box_one">
-          <p class="hint">本日はノーヒント</p>
+          <p class="hint">ヒントは準備中です</p>
         </div>
         <div class="closeArea">
           <div class="close_box"><a href="#ac1" class="close_btn">閉じる<div class="i_box"><i class="one_i"></i></div></a>
@@ -63,12 +66,24 @@
           <div class="close_box"><a href="#ac3" class="close_btn">閉じる<div class="i_box"><i class="one_i"></i></div></a></div>
         </div>
       </div>
-    </div> -->
-  
-    <p class="_a">@supported by okinta</p>
+    </div> -->  
   </div>
-  
-  
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/freespace-4/"><img src="shfs1800000602_04_pc.jpg" alt=""></a>口コミイベント</div>
+      <div class="swiper-slide"><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/freespace-2/"><img src="shfs1800000602_02_pc.jpg" alt=""></a>グループ店</div>
+      <div class="swiper-slide"><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/freespace-1/"><img src="ruri.jpg" alt=""></a>クレジットOK</div>
+      <div class="swiper-slide"><a href="https://www.cityheaven.net/okayama/A3301/A330101/mrs_ol/diarylist/"><img src="genpon.jpg" alt=""></a>写メ日記</div>
+    </div>
+    <!-- 必要に応じてページネーション -->
+    <div class="swiper-pagination"></div>
+    <!-- 必要に応じてナビボタン -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <p class="_a">@supported by okinta</p>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script>
 $(function(){
@@ -105,6 +120,30 @@ $(function(){
     $('body,html').animate({scrollTop:position}, speed, 'swing');
     return false;
   });
+});
+const swiper = new Swiper(".swiper", {
+  // ページネーションが必要なら追加
+  pagination: {
+    el: ".swiper-pagination"
+  },
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "2",
+
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true
+  },
+
+  // ナビボタンが必要なら追加
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
 });
 </script>
 </body>
